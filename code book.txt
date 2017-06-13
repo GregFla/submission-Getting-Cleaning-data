@@ -1,7 +1,18 @@
-"x"
-"label"
-"label_code"
-"subject"
+  #Variables
+  "label"       Give back the name of the activity made by the subject during the test
+  "label_code"  Index of the activity  
+  "subject"     Subject Code
+   
+  #Activity
+Describe what is the subject doing during the experiment
+  Walking -> Value "1"
+  Walking_upstairs -> Value "2"
+  Walking_downstairs -> Value "3"
+  Sitting -> Value "4"
+  Standing -> Value "5"
+  Laying -> Value "6"
+  
+  #Measurement Variables
 "tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
 "tBodyAcc-mean()-Z"
